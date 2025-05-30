@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.yt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.left-section,
+.center-section,
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.left-section .icon {
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.yt-logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
+
+.logo-icon {
+  margin-right: 4px;
+}
+
+.center-section {
+  flex: 1;
+  max-width: 600px;
+  margin: 0 40px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 2px 0 0 2px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 8px 12px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+.mic-icon {
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.right-section .icon {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.user-icon {
+  font-size: 26px;
+}
